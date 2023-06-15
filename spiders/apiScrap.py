@@ -18,4 +18,8 @@ class ApiScrapping(scrapy.Spider):
         Item['name'] = json_response.get('data')[0].get('full_name')
         Item['email'] = json_response.get('data')[0].get('email')
         Item['walletAddress'] = json_response.get('data')[0].get('wallet_address')
-        yield Item
+        # print(Item.keys())
+        # print(Item.items())
+        # Item2 = Item.copy()
+        # print(Item2.items())
+        # yield Item
