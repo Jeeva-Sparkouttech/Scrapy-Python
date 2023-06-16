@@ -65,6 +65,9 @@ ROBOTSTXT_OBEY = False
 ITEM_PIPELINES = {
    "scrapy_begin.pipelines.ScrapyBeginPipeline": 300,
 }
+MONGO_URI = 'mongodb://localhost:27017'  
+MONGO_DATABASE = 'testdb'  
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
