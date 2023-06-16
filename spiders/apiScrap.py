@@ -22,4 +22,4 @@ class ApiScrapping(scrapy.Spider):
         # print(Item.items())
         # Item2 = Item.copy()
         # print(Item2.items())
-        # yield Item
+        yield Item
